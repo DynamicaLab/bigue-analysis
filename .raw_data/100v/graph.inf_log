@@ -1,0 +1,95 @@
+
+===========================================================================================
+Mercador: accurate embeddings of graphs in the S1 space
+version: 0.9
+started on: 2025/04/17 21:33 UTC
+edgelist filename: /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/100v/graph.txt
+inferred positions filename: /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/100v/graph.inf_coord
+seed: 1744925607
+
+Loading edgelist......................................................................done.
+
+Checking number of connected components...............................................done.
+
+Analyzing degrees.....................................................................done.
+
+Computing local clustering............................................................done.
+
+Ordering vertices.....................................................................done.
+
+Properties of the graph
+    Nb vertices:                    100
+    Nb edges:                       298
+    Average degree:                 5.96
+    Minimum degree:                 1
+    Maximum degree:                 15
+    Nb of degree class:             13
+    Average clustering:             0.4163
+
+Refining the positions...
+    ...of vertices     [1,5]......done in 0.0156 seconds (3/5 changed position)
+    ...of vertices    [6,10]......done in 0.0151 seconds (1/5 changed position)
+    ...of vertices   [11,15]......done in 0.0148 seconds (1/5 changed position)
+    ...of vertices   [16,20]......done in 0.0148 seconds (2/5 changed position)
+    ...of vertices   [21,25]......done in 0.0153 seconds (1/5 changed position)
+    ...of vertices   [26,30]......done in 0.0148 seconds (1/5 changed position)
+    ...of vertices   [31,35]......done in 0.0144 seconds (1/5 changed position)
+    ...of vertices   [36,40]......done in 0.0144 seconds (3/5 changed position)
+    ...of vertices   [41,45]......done in 0.0144 seconds (1/5 changed position)
+    ...of vertices   [46,50]......done in 0.0144 seconds (3/5 changed position)
+    ...of vertices   [51,55]......done in 0.0145 seconds (2/5 changed position)
+    ...of vertices   [56,60]......done in 0.0141 seconds (0/5 changed position)
+    ...of vertices   [61,65]......done in 0.0144 seconds (0/5 changed position)
+    ...of vertices   [66,70]......done in 0.0147 seconds (0/5 changed position)
+    ...of vertices   [71,75]......done in 0.0145 seconds (1/5 changed position)
+    ...of vertices   [76,80]......done in 0.0139 seconds (2/5 changed position)
+    ...of vertices   [81,85]......done in 0.0141 seconds (2/5 changed position)
+    ...of vertices   [86,90]......done in 0.0140 seconds (0/5 changed position)
+    ...of vertices   [91,95]......done in 0.0139 seconds (3/5 changed position)
+    ...of vertices  [96,100]......done in 0.0137 seconds (0/5 changed position)
+                         .............................................................done.
+
+Updating values of kappa based on inferred positions...
+    Convergence reached after 1 iterations.
+                                                       ...............................done.
+
+    => Inferred coordinates saved to /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/100v/graph.inf_coord
+
+Internal parameters and options
+    ALREADY_INFERRED_PARAMETERS_FILENAME   /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/100v/graph.inf_coord
+    BETA_ABS_MAX                           25
+    BETA_ABS_MIN                           1.01
+    CHARACTERIZATION_MODE                  false
+    CHARACTERIZATION_NB_GRAPHS             100
+    CLEAN_RAW_OUTPUT_MODE                  false
+    CUSTOM_BETA                            false
+    CUSTOM_CHARACTERIZATION_NB_GRAPHS      false
+    CUSTOM_INFERRED_COORDINATES            false
+    CUSTOM_OUTPUT_ROOTNAME_MODE            false
+    CUSTOM_SEED                            false
+    EDGELIST_FILENAME:                     /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/100v/graph.txt
+    EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+    EXP_DIST_NB_INTEGRATION_STEPS          1000
+    KAPPA_MAX_NB_ITER_CONV                 500
+    KAPPA_POST_INFERENCE_MODE              true
+    MAXIMIZATION_MODE                      true
+    MIN_NB_ANGLES_TO_TRY                   100
+    NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+    NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+    NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+    NUMERICAL_ZERO                         1e-10
+    QUIET_MODE                             false
+    REFINE_MODE                            true
+    ROOTNAME_OUTPUT:                       /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/100v/graph
+    SEED                                   1744925607
+    VALIDATION_MODE                        false
+    VERBOSE_MODE                           false
+    VERSION                                0.9
+
+Ended on: 2025/04/17 21:33 UTC
+Elapsed CPU time (embedding):                0.2932 seconds
+    initialization:                          0.0013 seconds
+    loading previous positions:              0.0003 seconds
+    refining positions:                      0.2914 seconds
+    adjusting kappas:                        0.0002 seconds
+===========================================================================================

@@ -1,0 +1,77 @@
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Embedding started at:  2025/04/19 23:21 UTC
+# Ended at:              2025/04/19 23:21 UTC
+# Elapsed CPU time:      0.021805 seconds
+# Edgelist file:         /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/30v_long/graph_6_7.txt
+#
+# Parameters
+#   - nb. vertices:      30
+#   - beta:              1.4457
+#   - mu:                0.0342666
+#   - radius_S1:         4.77465
+#   - radius_H2:         13.5307
+#   - kappa_min:         0.566851
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+#        Vertex       Inf.Kappa       Inf.Theta    Inf.Hyp.Rad. 
+              0         5.69227         1.24523          8.9172 
+              1         2.24635         3.56868         10.7768 
+              2          10.236         5.85557          7.7436 
+              3         6.08139         1.27576         8.78495 
+              4         5.86413         1.59253         8.85771 
+              5         25.3859         3.66432         5.92703 
+              6         8.98387         3.22498         8.00456 
+              7         4.28129         2.62702         9.48691 
+              8         1.85787         2.52897         11.1566 
+              9         14.6133         4.09446         7.03156 
+             10         6.64414         2.53797         8.60795 
+             11         4.43559         5.45204          9.4161 
+             12         7.11316         3.56629         8.47153 
+             13         5.59287         4.04789         8.95244 
+             14         8.32472         4.58449         8.15696 
+             15        0.566851         1.28159         13.5307 
+             16         11.2358         6.05662         7.55721 
+             17         5.05467         2.53328          9.1548 
+             18         6.60855         6.08396         8.61869 
+             19         3.63303         5.96625         9.81529 
+             20         3.30857         1.27207         10.0024 
+             21         3.97379         5.46189         9.63598 
+             22         5.13111         5.84714         9.12478 
+             23         7.39582         5.46035         8.39359 
+             24         4.06223         5.45122         9.59196 
+             25         7.66437         4.04696         8.32226 
+             26         5.91269         1.60031         8.84122 
+             27         7.71817         0.77457         8.30827 
+             28         12.9873         2.84633         7.26748 
+             29         4.17842          1.5894         9.53555 
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Internal parameters and options
+#     ALREADY_INFERRED_PARAMETERS_FILENAME   /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/30v_long/graph_6_7.inf_coord
+#     BETA_ABS_MAX                           25
+#     BETA_ABS_MIN                           1.01
+#     CHARACTERIZATION_MODE                  false
+#     CHARACTERIZATION_NB_GRAPHS             100
+#     CLEAN_RAW_OUTPUT_MODE                  false
+#     CUSTOM_BETA                            false
+#     CUSTOM_INFERRED_COORDINATES            false
+#     CUSTOM_OUTPUT_ROOTNAME_MODE            false
+#     CUSTOM_SEED                            false
+#     EDGELIST_FILENAME:                     /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/30v_long/graph_6_7.txt
+#     EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+#     EXP_DIST_NB_INTEGRATION_STEPS          1000
+#     KAPPA_MAX_NB_ITER_CONV                 500
+#     KAPPA_POST_INFERENCE_MODE              true
+#     MAXIMIZATION_MODE                      true
+#     MIN_NB_ANGLES_TO_TRY                   100
+#     NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+#     NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+#     NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+#     NUMERICAL_ZERO                         1e-10
+#     QUIET_MODE                             false
+#     REFINE_MODE                            true
+#     ROOTNAME_OUTPUT:                       /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/30v_long/graph_6_7
+#     SEED                                   1745104867
+#     VALIDATION_MODE                        false
+#     VERBOSE_MODE                           false
+#     VERSION                                0.9
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=

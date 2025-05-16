@@ -1,0 +1,70 @@
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Embedding started at:  2025/04/17 21:31 UTC
+# Ended at:              2025/04/17 21:31 UTC
+# Elapsed CPU time:      0.013123 seconds
+# Edgelist file:         /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/montreal/graph.txt
+#
+# Parameters
+#   - nb. vertices:      23
+#   - beta:              1.10885
+#   - mu:                0.00892763
+#   - radius_S1:         3.66056
+#   - radius_H2:         14.5809
+#   - kappa_min:         0.747857
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+#        Vertex       Inf.Kappa       Inf.Theta    Inf.Hyp.Rad. 
+              0         8.75631         2.07142         9.66028 
+              1         11.7923         5.42877         9.06493 
+              2         3.94892         4.73733         11.2529 
+              3         208.761         1.25778         3.31744 
+              4         20.0106         2.27984          8.0073 
+              5         8.76939         2.29099         9.65729 
+              6         25.9152         2.10861         7.49016 
+              7         12.2857         3.07845         8.98295 
+              8         2.44604         3.07492         12.2109 
+              9         12.7499         5.58262         8.90878 
+             10         1.47392         2.06892          13.224 
+             11         4.09326         5.80521         11.1811 
+             12         1.75595         4.12762         12.8738 
+             13         1.91297         5.80179         12.7025 
+             14         11.2101         4.13766         9.16619 
+             15         12.2711        0.533691         8.98533 
+             16         2.01995         4.15536         12.5937 
+             17         1.94914         5.58328          12.665 
+             18         186.655         4.14391          3.5413 
+             19         1.50627         1.26085         13.1806 
+             20        0.747857        0.531538         14.5809 
+             21         443.072         5.57002         1.81236 
+             22         17.8562        0.400646         8.23512 
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Internal parameters and options
+#     ALREADY_INFERRED_PARAMETERS_FILENAME   /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/montreal/graph.inf_coord
+#     BETA_ABS_MAX                           25
+#     BETA_ABS_MIN                           1.01
+#     CHARACTERIZATION_MODE                  false
+#     CHARACTERIZATION_NB_GRAPHS             100
+#     CLEAN_RAW_OUTPUT_MODE                  false
+#     CUSTOM_BETA                            false
+#     CUSTOM_INFERRED_COORDINATES            false
+#     CUSTOM_OUTPUT_ROOTNAME_MODE            false
+#     CUSTOM_SEED                            false
+#     EDGELIST_FILENAME:                     /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/montreal/graph.txt
+#     EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+#     EXP_DIST_NB_INTEGRATION_STEPS          1000
+#     KAPPA_MAX_NB_ITER_CONV                 500
+#     KAPPA_POST_INFERENCE_MODE              true
+#     MAXIMIZATION_MODE                      true
+#     MIN_NB_ANGLES_TO_TRY                   100
+#     NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+#     NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+#     NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+#     NUMERICAL_ZERO                         1e-10
+#     QUIET_MODE                             false
+#     REFINE_MODE                            true
+#     ROOTNAME_OUTPUT:                       /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/montreal/graph
+#     SEED                                   1744925487
+#     VALIDATION_MODE                        false
+#     VERBOSE_MODE                           false
+#     VERSION                                0.9
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=

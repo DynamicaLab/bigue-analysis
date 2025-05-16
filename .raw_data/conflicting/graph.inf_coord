@@ -1,0 +1,77 @@
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Embedding started at:  2025/04/17 21:31 UTC
+# Ended at:              2025/04/17 21:31 UTC
+# Elapsed CPU time:      0.027172 seconds
+# Edgelist file:         /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/conflicting/graph.txt
+#
+# Parameters
+#   - nb. vertices:      30
+#   - beta:              4.46074
+#   - mu:                0.0749477
+#   - radius_S1:         4.77465
+#   - radius_H2:         9.13415
+#   - kappa_min:         1.15048
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+#        Vertex       Inf.Kappa       Inf.Theta    Inf.Hyp.Rad. 
+              0         10.8078        0.541207         4.65397 
+              1         5.77966         5.57678         5.90582 
+              2         9.19642         2.32566         4.97688 
+              3         5.37737         5.40763         6.05011 
+              4         6.83592        0.723179         5.57012 
+              5         7.42221         3.46308         5.40555 
+              6         3.66166         4.33568         6.81867 
+              7         1.89461         4.35948         8.13648 
+              8          5.8706      0.00507329         5.87459 
+              9         5.81412         6.08068         5.89393 
+             10         9.67462         5.80757         4.87549 
+             11         4.74789         5.53004         6.29911 
+             12         1.80826         4.36182         8.22978 
+             13         7.28008         2.80244         5.44422 
+             14         3.76805         5.44415         6.76139 
+             15         6.85845         2.31099         5.56354 
+             16         2.65738         1.28426         7.45982 
+             17         1.15048         3.41944         9.13415 
+             18         10.5257         2.49266         4.70687 
+             19         5.06228         1.21597         6.17087 
+             20         3.06779         1.03637         7.17259 
+             21         11.1227         3.12644         4.59653 
+             22         12.1363         3.71751          4.4221 
+             23         7.10338      0.00254449         5.49336 
+             24         4.26485         3.39128         6.51369 
+             25         6.66204         5.99199         5.62165 
+             26         4.80219         1.40353         6.27636 
+             27         5.82977         1.63094         5.88855 
+             28         10.3837         2.47936         4.73403 
+             29         8.70628         1.03281         5.08642 
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Internal parameters and options
+#     ALREADY_INFERRED_PARAMETERS_FILENAME   /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/conflicting/graph.inf_coord
+#     BETA_ABS_MAX                           25
+#     BETA_ABS_MIN                           1.01
+#     CHARACTERIZATION_MODE                  false
+#     CHARACTERIZATION_NB_GRAPHS             100
+#     CLEAN_RAW_OUTPUT_MODE                  false
+#     CUSTOM_BETA                            false
+#     CUSTOM_INFERRED_COORDINATES            false
+#     CUSTOM_OUTPUT_ROOTNAME_MODE            false
+#     CUSTOM_SEED                            false
+#     EDGELIST_FILENAME:                     /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/conflicting/graph.txt
+#     EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+#     EXP_DIST_NB_INTEGRATION_STEPS          1000
+#     KAPPA_MAX_NB_ITER_CONV                 500
+#     KAPPA_POST_INFERENCE_MODE              true
+#     MAXIMIZATION_MODE                      true
+#     MIN_NB_ANGLES_TO_TRY                   100
+#     NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+#     NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+#     NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+#     NUMERICAL_ZERO                         1e-10
+#     QUIET_MODE                             false
+#     REFINE_MODE                            true
+#     ROOTNAME_OUTPUT:                       /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/conflicting/graph
+#     SEED                                   1744925477
+#     VALIDATION_MODE                        false
+#     VERBOSE_MODE                           false
+#     VERSION                                0.9
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=

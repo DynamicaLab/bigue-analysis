@@ -1,0 +1,80 @@
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Embedding started at:  2025/04/17 21:31 UTC
+# Ended at:              2025/04/17 21:31 UTC
+# Elapsed CPU time:      0.031676 seconds
+# Edgelist file:         /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/karate/graph.txt
+#
+# Parameters
+#   - nb. vertices:      33
+#   - beta:              2.03509
+#   - mu:                0.0693806
+#   - radius_S1:         5.25211
+#   - radius_H2:         11.1702
+#   - kappa_min:         0.753837
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+#        Vertex       Inf.Kappa       Inf.Theta    Inf.Hyp.Rad. 
+              0         30.6387         3.58676         3.76048 
+              1         16.8388         3.51843         4.95764 
+              2         6.23606          5.0699         6.94431 
+              3         3.97677         2.10595         7.84407 
+              4         4.30307         4.20691         7.68635 
+              5         3.89759         5.24198         7.88429 
+              6         4.18839         4.68986         7.74038 
+              7         1.59768         4.19803          9.6679 
+              8         2.30398         5.01084         8.93573 
+              9         2.28715         5.01744          8.9504 
+             10         6.50777         4.53653         6.85902 
+             11        0.902511         3.45765         10.8102 
+             12         2.12702         1.03237         9.09557 
+             13         1.54199         3.35276         9.73886 
+             14         2.36528         1.26196         8.88322 
+             15        0.980746         3.51763         10.6439 
+             16         1.58723         1.15427         9.68103 
+             17        0.753837         6.02456         11.1702 
+             18         1.63831         3.69212         9.61768 
+             19         1.05798         3.58361         10.4923 
+             20         4.29717         1.47892          7.6891 
+             21         1.13007         1.60477         10.3605 
+             22         3.11438         6.19026         8.33295 
+             23          2.0147         2.60164         9.20407 
+             24         5.51212         2.26433         7.19111 
+             25          3.5027         1.73753         8.09794 
+             26          3.4507         6.02897         8.12786 
+             27         3.43381         6.02519         8.13767 
+             28         3.15928          6.1935         8.30432 
+             29         4.40156         1.60318         7.64109 
+             30         15.4024         2.48061         5.13596 
+             31         10.0515         1.28724         5.98957 
+             32         26.5467         1.00252          4.0472 
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Internal parameters and options
+#     ALREADY_INFERRED_PARAMETERS_FILENAME   /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/karate/graph.inf_coord
+#     BETA_ABS_MAX                           25
+#     BETA_ABS_MIN                           1.01
+#     CHARACTERIZATION_MODE                  false
+#     CHARACTERIZATION_NB_GRAPHS             100
+#     CLEAN_RAW_OUTPUT_MODE                  false
+#     CUSTOM_BETA                            false
+#     CUSTOM_INFERRED_COORDINATES            false
+#     CUSTOM_OUTPUT_ROOTNAME_MODE            false
+#     CUSTOM_SEED                            false
+#     EDGELIST_FILENAME:                     /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/karate/graph.txt
+#     EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+#     EXP_DIST_NB_INTEGRATION_STEPS          1000
+#     KAPPA_MAX_NB_ITER_CONV                 500
+#     KAPPA_POST_INFERENCE_MODE              true
+#     MAXIMIZATION_MODE                      true
+#     MIN_NB_ANGLES_TO_TRY                   100
+#     NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+#     NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+#     NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+#     NUMERICAL_ZERO                         1e-10
+#     QUIET_MODE                             false
+#     REFINE_MODE                            true
+#     ROOTNAME_OUTPUT:                       /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/karate/graph
+#     SEED                                   1744925474
+#     VALIDATION_MODE                        false
+#     VERBOSE_MODE                           false
+#     VERSION                                0.9
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=

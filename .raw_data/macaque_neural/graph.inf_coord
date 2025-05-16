@@ -1,0 +1,94 @@
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Embedding started at:  2025/04/17 21:31 UTC
+# Ended at:              2025/04/17 21:31 UTC
+# Elapsed CPU time:      0.064659 seconds
+# Edgelist file:         /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/macaque_neural/graph.txt
+#
+# Parameters
+#   - nb. vertices:      47
+#   - beta:              3.12889
+#   - mu:                0.0315428
+#   - radius_S1:         7.48028
+#   - radius_H2:         7.42498
+#   - kappa_min:         3.40304
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+#        Vertex       Inf.Kappa       Inf.Theta    Inf.Hyp.Rad. 
+              0         6.45799         2.10852         6.14368 
+              1         25.2054         4.57522          3.4202 
+              2         8.74709         3.60225         5.53687 
+              3         26.1555         2.45516          3.3462 
+              4         11.5929         3.19979         4.97353 
+              5         14.3594         3.20884         4.54551 
+              6         21.2194         3.15298         3.76449 
+              7           9.831         3.26548         5.30324 
+              8         17.1671         1.15388         4.18833 
+              9         29.3332          1.1906         3.11688 
+             10         15.2917         1.14095          4.4197 
+             11         6.99803         1.28968         5.98306 
+             12         6.24464         5.99113         6.21087 
+             13         14.4001       0.0184987         4.53985 
+             14         6.86087        0.210336         6.02265 
+             15         22.4031         4.24838         3.65592 
+             16         8.22737         1.73705         5.65938 
+             17          6.6059         1.99025         6.09839 
+             18         11.9765         4.35934         4.90842 
+             19         20.0423         3.45776         3.87863 
+             20         12.7615         3.87669         4.78145 
+             21         15.9915         3.55794          4.3302 
+             22          7.3452         4.87581         5.88622 
+             23         3.92385         5.11286         7.14017 
+             24         25.0384         3.05996          3.4335 
+             25         14.8124        0.408502         4.48339 
+             26         24.6603         2.75702         3.46393 
+             27         43.3108         3.82844         2.33751 
+             28          13.099         4.12648         4.72925 
+             29         8.62987         1.85018         5.56386 
+             30         3.58747         1.70175         7.31942 
+             31         6.81211         1.65577         6.03691 
+             32         9.23664         1.79021         5.42796 
+             33         27.3236         5.65301         3.25882 
+             34         26.8613         5.26723         3.29294 
+             35         22.7654         5.74557         3.62383 
+             36         6.29026         6.13044         6.19631 
+             37         3.40304         6.20129         7.42498 
+             38         3.68428         6.13445         7.26617 
+             39         16.8772         2.75822         4.22239 
+             40         6.02451        0.751177         6.28264 
+             41         35.5918         5.52342         2.73009 
+             42         23.0251        0.363099         3.60115 
+             43           10.55        0.687914         5.16207 
+             44         8.22997        0.812294         5.65875 
+             45         6.85945         6.13165         6.02306 
+             46         5.95535         6.16077         6.30574 
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Internal parameters and options
+#     ALREADY_INFERRED_PARAMETERS_FILENAME   /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/macaque_neural/graph.inf_coord
+#     BETA_ABS_MAX                           25
+#     BETA_ABS_MIN                           1.01
+#     CHARACTERIZATION_MODE                  false
+#     CHARACTERIZATION_NB_GRAPHS             100
+#     CLEAN_RAW_OUTPUT_MODE                  false
+#     CUSTOM_BETA                            false
+#     CUSTOM_INFERRED_COORDINATES            false
+#     CUSTOM_OUTPUT_ROOTNAME_MODE            false
+#     CUSTOM_SEED                            false
+#     EDGELIST_FILENAME:                     /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/macaque_neural/graph.txt
+#     EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+#     EXP_DIST_NB_INTEGRATION_STEPS          1000
+#     KAPPA_MAX_NB_ITER_CONV                 500
+#     KAPPA_POST_INFERENCE_MODE              true
+#     MAXIMIZATION_MODE                      true
+#     MIN_NB_ANGLES_TO_TRY                   100
+#     NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+#     NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+#     NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+#     NUMERICAL_ZERO                         1e-10
+#     QUIET_MODE                             false
+#     REFINE_MODE                            true
+#     ROOTNAME_OUTPUT:                       /home/simon/Documents/Doctorat/projects/bigue/bigue-analysis/.raw_data/macaque_neural/graph
+#     SEED                                   1744925512
+#     VALIDATION_MODE                        false
+#     VERBOSE_MODE                           false
+#     VERSION                                0.9
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
