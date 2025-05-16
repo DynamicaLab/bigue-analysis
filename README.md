@@ -28,7 +28,7 @@ pip install ./BaseGraphMetrics
 pip install ./BaseGraphGeometry
 ```
 
-Compile Mercator embedding's program as `mercator` with (example using g++ in the `mercator` directory)
+Compile [Mercator](https://github.com/networkgeometry/mercator) embedding's program as `mercator` with (example using g++ in the `mercator` directory)
 ```{sh}
 g++ -O3 src/embeddingS1_unix.cpp -Iinclude -o mercator
 ```
