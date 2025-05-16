@@ -10,7 +10,7 @@ If you use this code, please cite:
 "Symmetry-driven embedding of networks in hyperbolic space". _Commun. Phys._ __8__, 199 (2025).
 https://doi.org/10.1038/s42005-025-02122-0
 
-Simon Lizotte. "bigue-analysis". Zenodo (2025). https://doi.org/10.5281/zenodo.15272626
+Simon Lizotte. "bigue-analysis". Zenodo (2025). https://doi.org/10.5281/zenodo.15272625.
 
 ## Installation
 
