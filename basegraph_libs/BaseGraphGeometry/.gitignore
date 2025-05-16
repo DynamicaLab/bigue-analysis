@@ -1,0 +1,15 @@
+*.DS_Store
+*.ipynb_checkpoints
+*.o
+*.a
+*.out
+*.tar.gz
+
+.cache/
+.ccls-cache/
+.eggs/
+__pycache__/
+build/
+dist/
+
+compile_commands.json

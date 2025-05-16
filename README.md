@@ -2,7 +2,7 @@
 
 This repository contains the code used to generate the Figures presented in the paper introducing BIGUE. The code heavily relies on [pybigue].
 
-The repository is shared for reference and is not well documented. Only the commands necessary to generate the figures are given.
+The repository is shared for reference and is minimally documented. Only the commands necessary to generate the figures are given.
 
 If you use this algorithm, please cite:
 
@@ -14,21 +14,26 @@ https://doi.org/10.1038/s42005-025-02122-0
 
 First download the code and its submodules using git
 ```sh
-git clone --recurse-submodules https://github.com/DynamicaLab/bigue-analysis.git
+git clone https://github.com/DynamicaLab/bigue-analysis.git
 ```
 Install [pybigue] and the requirements of this code
 ```
 pip install pybigue
 pip install -r pybigue-analysis/requirements.txt
 ```
-Install [Basegraph](https://github.com/BaseGraph/BaseGraph.git) and its [metrics](https://github.com/BaseGraph/BaseGraphMetrics) and geometry extensions: [...]
+Install [Basegraph](https://github.com/BaseGraph/BaseGraph.git) and its [metrics](https://github.com/BaseGraph/BaseGraphMetrics) and geometry extensions as Python modules (extensions were copied in BaseGraph to ease installation): execute in the `basegraph_libs` directory
+```
+pip install ./BaseGraph
+pip install ./BaseGraphMetrics
+pip install ./BaseGraphGeometry
+```
 
 Compile Mercator embedding's program as `mercator` with (example using g++ in the `mercator` directory)
 ```{sh}
 g++ -O3 src/embeddingS1_unix.cpp -Iinclude -o mercator
 ```
 
-## Reproducing Figures
+## Reproducing the paper figures
 
 The `.raw_data` directory contains the results of the simulations used in the paper.
 This means that the Figures can be generated without running the simulations.
@@ -106,7 +111,7 @@ python results/link_prediction_hist.py config/30v_long.yaml
 python results/auc.py config/30v_long.yaml
 ```
 
-## Reproducing results
+## Reproducing simulations
 
 This section details the commands used to run the simulations.
 Each script can be executed in parallel (e.g. using GNU parallel). To generate the necessary samples for each graph, run

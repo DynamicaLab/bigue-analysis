@@ -1,0 +1,6 @@
+scikit-build-core
+pybind11
+pytest
+numpy
+scipy
+networkx

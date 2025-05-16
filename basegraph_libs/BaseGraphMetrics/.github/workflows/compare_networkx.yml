@@ -1,0 +1,40 @@
+name: Wrapper tests
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  test_wrapper:
+    name: Test Python wrapper
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+
+      - name: Install BaseGraph
+        run: |
+          git clone https://github.com/antoineallard/base_graph.git
+          cd base_graph
+          cmake -B build
+          cmake --build build
+          cmake --install build --prefix=".local"
+          echo "$(pwd)/.local" >> $GITHUB_PATH
+          pip install .
+          cd ..
+
+      - name: Install BaseGraph and dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r tests/requirements.txt
+          pip install .
+
+      - name: Test
+        shell: bash
+        run: pytest

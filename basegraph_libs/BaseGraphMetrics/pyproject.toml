@@ -1,0 +1,21 @@
+[build-system]
+requires = ["scikit-build-core>=0.2.1", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "basegraph_metrics"
+version = "0.1.0"
+description = "BaseGraph extension providing common graph metrics."
+readme = "README.md"
+authors = [
+  { name = "Simon Lizotte" },
+]
+requires-python = ">=3.7"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[tool.scikit-build]
+wheel.expand-macos-universal-tags = true

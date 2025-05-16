@@ -1,0 +1,40 @@
+name: Python build
+
+on:
+  push:
+    branches: [ main, fix-workflow ]
+  pull_request:
+    branches: [ main, fix-workflow ]
+
+jobs:
+  test_wrapper:
+    name: Test Python module building
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [macos-latest, ubuntu-latest, windows-latest]
+        python-version: ["3.8", "3.9", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install BaseGraph
+        run:
+          pip install .[test]
+
+      - name: Import BaseGraph core
+        run: |
+          mkdir isolated_python
+          cd isolated_python
+          python -c "import basegraph"
+          python -c "from basegraph import core"
