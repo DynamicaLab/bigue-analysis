@@ -4,11 +4,13 @@ This repository contains the code used to generate the Figures presented in the 
 
 The repository is shared for reference and is minimally documented. Only the commands necessary to generate the figures are given.
 
-If you use this algorithm, please cite:
+If you use this code, please cite:
 
 [Simon Lizotte](https://siliz4.github.io), [Jean-Gabriel Young](https://jgyoung.ca) and [Antoine Allard](https://antoineallard.github.io)
 "Symmetry-driven embedding of networks in hyperbolic space". _Commun. Phys._ __8__, 199 (2025).
 https://doi.org/10.1038/s42005-025-02122-0
+
+Simon Lizotte. "bigue-analysis". Zenodo (2025). https://doi.org/10.5281/zenodo.15272626
 
 ## Installation
 
@@ -17,20 +19,26 @@ First download the code and its submodules using git
 git clone https://github.com/DynamicaLab/bigue-analysis.git
 ```
 Install [pybigue] and the requirements of this code
-```
+```sh
 pip install pybigue
-pip install -r pybigue-analysis/requirements.txt
+pip install -r ./bigue-analysis/requirements.txt
 ```
 Install [Basegraph](https://github.com/BaseGraph/BaseGraph.git) and its [metrics](https://github.com/BaseGraph/BaseGraphMetrics) and geometry extensions as Python modules (extensions were copied in BaseGraph to ease installation): execute in the `basegraph_libs` directory
-```
+```sh
 pip install ./BaseGraph
 pip install ./BaseGraphMetrics
 pip install ./BaseGraphGeometry
 ```
 
 Compile [Mercator](https://github.com/networkgeometry/mercator) embedding's program as `mercator` with (example using g++ in the `mercator` directory)
-```{sh}
+```sh
 g++ -O3 src/embeddingS1_unix.cpp -Iinclude -o mercator
+```
+
+Compile the C program for automorpisms based on [Nauty traces](https://doi.org/10.1016/j.jsc.2013.09.003) by executing in the `nauty-automorph` directory
+```sh
+./configure
+make nauty-automorph
 ```
 
 ## Reproducing the paper figures
