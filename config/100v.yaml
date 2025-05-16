@@ -1,0 +1,23 @@
+seed: 69
+
+algorithm:
+  sample_size: 100
+  warmup: 50
+  thin: 10000
+  kernels:
+    random walk:
+      for: [theta, kappa, beta]
+      prob: 0.4
+    flip:
+      prob: 0.2
+    swap:
+      prob: 0.2
+    translate:
+      prob: 0.2
+
+generation:
+  n: 100
+  kappa_min: 4
+  kappa_max: 10
+  gamma: 2.5
+  beta: 2.5

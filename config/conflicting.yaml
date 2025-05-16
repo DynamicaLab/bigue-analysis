@@ -1,0 +1,20 @@
+seed: 59
+
+algorithm:
+  sample_size: 500
+  warmup: 50
+  thin: 1000
+  chain_number: 4
+
+  kernels:
+    random walk:
+      for: [theta, kappa, beta]
+      prob: 0.4
+    flip:
+      prob: 0.2
+    swap:
+      prob: 0.2
+    translate:
+      prob: 0.2
+
+graph: .data/conflicting.txt

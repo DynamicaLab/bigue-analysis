@@ -1,0 +1,19 @@
+seed: 59
+
+algorithm:
+  sample_size: 20000
+  warmup: 0
+  thin: 10
+  chain_number: 4
+  kernels:
+    hmc:
+      for: [theta, kappa, beta]
+      warmup: 200
+      prob: 1
+
+generation:
+  n: 30
+  kappa_min: 4
+  kappa_max: 10
+  gamma: 2.5
+  beta: 2.5

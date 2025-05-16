@@ -1,0 +1,9 @@
+*.o
+*.a
+
+nauty.h
+
+makefile
+config.log
+config.status
+nauty-automorph

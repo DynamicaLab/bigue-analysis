@@ -1,0 +1,19 @@
+seed: 42
+
+algorithm:
+  sample_size: 300
+  warmup: 10
+  thin: 5000
+  filter_graph: True
+  kernels:
+    random walk:
+      for: [theta, kappa, beta]
+      prob: 0.4
+    flip:
+      prob: 0.2
+    swap:
+      prob: 0.2
+    translate:
+      prob: 0.2
+
+graph: ".data/dutch_criticism.txt"
