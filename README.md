@@ -12,9 +12,9 @@ https://doi.org/10.1038/s42005-025-02122-0
 
 ## Installation
 
-First download the code using git
+First download the code and its submodules using git
 ```sh
-git clone https://github.com/DynamicaLab/bigue-analysis.git
+git clone --recurse-submodules https://github.com/DynamicaLab/bigue-analysis.git
 ```
 Install [pybigue] and the requirements of this code
 ```
@@ -22,6 +22,11 @@ pip install pybigue
 pip install -r pybigue-analysis/requirements.txt
 ```
 Install [Basegraph](https://github.com/BaseGraph/BaseGraph.git) and its [metrics](https://github.com/BaseGraph/BaseGraphMetrics) and geometry extensions: [...]
+
+Compile Mercator embedding's program as `mercator` with (example using g++ in the `mercator` directory)
+```{sh}
+g++ -O3 src/embeddingS1_unix.cpp -Iinclude -o mercator
+```
 
 ## Reproducing Figures
 
